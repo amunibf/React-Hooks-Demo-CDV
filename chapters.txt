@@ -1,0 +1,6 @@
+10. useEffect with cleanup : MouseContainer.js
+add   return ()=>{
+            console.log('Component unmounting code')
+            window.removeEventListener('mousemove', logMousePosition)
+        } for HookMouse.js 
+equivalent of conponentWillUnmount

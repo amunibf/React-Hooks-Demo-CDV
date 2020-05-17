@@ -7,6 +7,11 @@ import HookCounterThree from './components/HookCounterThree';
 import HookCounterFour from './components/HookCounterFour';
 import HookCounterOne from './components/HookCounterOne';
 import ClassCounterOne from './components/ClassCounterOne';
+import HookMouse from './components/HookMouse';
+import ClassMouse from './components/ClassMouse';
+import MouseContainer from './components/MouseContainer';
+import IntervalClassCounter from './components/IntervalClassCounter';
+import IntervalHookCounter from './components/IntervalHookCounter';
 
 
 
@@ -15,7 +20,12 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <HookCounterOne/>
+      <IntervalHookCounter/>
+      <IntervalClassCounter/>
+      {/* <MouseContainer/> */}
+      {/* <HookMouse/> */}
+      {/* <ClassMouse/> */}
+      {/* <HookCounterOne/> */}
       {/* <HookCounterFour/> */}
       {/* <HookCounterThree/> */}
       {/* <ClassCounterOne/> */}
