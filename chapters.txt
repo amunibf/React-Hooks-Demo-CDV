@@ -10,6 +10,9 @@ equivalent of conponentWillUnmount
 posts.map(post=>{<li key={post.id}>{post.title}</li>}) (not ok)
 posts.map(post=>(<li key={post.id}>{post.title}</li>)) (ok)
 posts.map(post=><li key={post.id}>{post.title}</li>) (ok)
+use App2 for render
+19. useReducer : CounterOne.js
+
 
 
 

@@ -14,6 +14,7 @@ import IntervalClassCounter from './components/IntervalClassCounter';
 // import IntervalHookCounter from './components/IntervalHookCounter';
 import DataFetching from './components/DataFetching';
 import ComponentC from './components/ComponentC';
+import CounterOne from './components/CounterOne';
 
 
 
@@ -21,7 +22,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">    
+      <div className="App"> 
+      <CounterOne/>
       {/* <DataFetching/> */}
       {/* <IntervalHookCounter/>
       <IntervalClassCounter/> */}
