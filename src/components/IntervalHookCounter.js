@@ -8,7 +8,7 @@ function IntervalHookCounter() {
     }
 
     useEffect(()=>{
-        function doSomething{
+        function doSomething(){
             console.log('Do something')
         }
         const interval = setInterval(tick, 1000)

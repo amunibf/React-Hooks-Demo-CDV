@@ -13,6 +13,7 @@ import MouseContainer from './components/MouseContainer';
 import IntervalClassCounter from './components/IntervalClassCounter';
 // import IntervalHookCounter from './components/IntervalHookCounter';
 import DataFetching from './components/DataFetching';
+import ComponentC from './components/ComponentC';
 
 
 
@@ -20,8 +21,8 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-      <DataFetching/>
+      <div className="App">    
+      {/* <DataFetching/> */}
       {/* <IntervalHookCounter/>
       <IntervalClassCounter/> */}
       {/* <MouseContainer/> */}
